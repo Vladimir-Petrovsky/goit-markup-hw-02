@@ -43,10 +43,10 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.header-logo span {
+.header-logo .accent {
   color: #2e2f42;
 }
-.footer-logo span {
+.footer-logo .accent {
   color: #f4f4fd;
 }
 
@@ -105,7 +105,7 @@ address {
 }
 
 /*_____________________ Features _____________________*/
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -116,7 +116,7 @@ address {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 .features-list-title {
   font-weight: 500;
   font-size: 20px;
