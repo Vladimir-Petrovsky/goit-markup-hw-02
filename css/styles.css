@@ -29,6 +29,9 @@ a {
 ul {
   list-style-type: none;
 }
+address {
+  font-style: normal;
+}
 /*_____________________ Logo _____________________*/
 .header-logo,
 .footer-logo {
@@ -36,6 +39,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
@@ -63,7 +67,6 @@ ul {
 .header-address-link {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 .header-address-link:hover,
@@ -81,13 +84,14 @@ ul {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .hero-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.04em;
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
@@ -114,28 +118,42 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .features-list-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*_____________________ Team _____________________*/
+.team {
+  background-color: #f4f4fd;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.team-list-item {
+  background-color: #ffffff;
 }
 .team-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .team-list-text {
   font-size: 16px;
   line-height: 1.5;
-  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 /*_____________________ Portfolio _____________________*/
@@ -143,17 +161,22 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
+  text-align: center;
 }
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .portfolio-list-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*_____________________ Footer _____________________*/
@@ -163,5 +186,6 @@ ul {
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
